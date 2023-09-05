@@ -3,7 +3,7 @@
   width: 100% !important;
   height: 64px !important;
   border-radius: 22px !important;
-  z-index: 0;
+  z-index: 4444;
   position: relative;
 }
 .nav-parent::before ,.nav-parent-mobile::before {
