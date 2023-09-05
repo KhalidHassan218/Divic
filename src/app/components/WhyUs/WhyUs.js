@@ -103,7 +103,7 @@ const WhyUs = () => {
       {/* cards-section */}
       <div className=" gap-6 md:gap-10 lg:gap-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {whyUs.map((item, index) => (
-          <div className="flex-col flex">
+          <div key={index} className="flex-col flex">
             <div className=" block  lg:flex items-center">
               <div className="mr-1">
                 {item.icon}

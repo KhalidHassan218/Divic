@@ -48,7 +48,7 @@ const Services = () => {
       {/* cards-section */}
       <div className=" service-card-content  gap-2 lg:gap-4 grid grid-cols-1 lg:grid-cols-2">
       {services.map((service, index) => (
-        <div className=" service-card flex items-center justify-center">
+        <div key={index} className="  service-card flex items-center justify-center">
           <div key={index} className="" >
             <Image
               width={180}

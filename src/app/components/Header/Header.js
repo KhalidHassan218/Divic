@@ -10,7 +10,7 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/navbar";
-const header = () => {
+const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const links = [
     "Home",
@@ -137,4 +137,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
