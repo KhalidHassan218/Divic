@@ -134,6 +134,7 @@ mix-blend-mode: screen;
 .mobile-links{
   position: fixed;
   width: 100%;
+  z-index: 3333;
   height: fit-content;
   background: rgba(14, 3, 28, 1);
   padding-top: 100px;
