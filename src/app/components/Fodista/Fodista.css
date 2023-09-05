@@ -1,0 +1,13 @@
+.fodista-card{
+padding: 12px;
+border-radius: 17px;
+box-shadow: inset 0px -3.225806713104248px 9.677419662475586px 0px rgba(206, 206, 251, 0.1) ;
+border: 0.81px solid rgba(206, 206, 251, 0.12);
+width:900px;
+height:577.56px;
+}
+.fodista-card img{
+    width: 100%;
+    height: 90%;
+    
+}
