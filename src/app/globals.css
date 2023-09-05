@@ -12,7 +12,11 @@
   -moz-box-sizing: border-box;
   user-select: none;
   scroll-behavior: smooth;
+  
 }
+body, html {
+  overflow-x: hidden;
+  }
 body{
   background-color:#100c26;
 position: relative;
