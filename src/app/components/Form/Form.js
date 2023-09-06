@@ -74,7 +74,7 @@ const Form = () => {
           >
             contact you within 24-hours
           </p>
-          <div className="my-6 px-0 md:px-24 gap-6 form-fields-contianer flex-col md:flex-row flex items-center justify-center">
+          <div className="my-6 px-0 md:px-24 gap-6 form-fields-contianer flex-col md:flex-row flex md:items-center justify-center">
             <div className="text-white ">
               <input
                 type="name"

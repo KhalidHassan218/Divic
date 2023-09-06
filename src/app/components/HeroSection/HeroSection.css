@@ -38,22 +38,34 @@ z-index: 0;
     height: 200px;
     transform: translateX(-50%);
     opacity: 0;
-    animation: shading 1.2s 3.1s linear forwards;
 }
 .solution{
     background: linear-gradient(0deg, rgba(206, 206, 251, 0.12), rgba(206, 206, 251, 0.12));
     border: 3px solid rgba(206, 206, 251, 0.12);
     box-shadow:inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1) ;
     padding: 6px 14px;
-    border-radius: 12px;
+    border-radius: 18px;
     width: fit-content;
    color: #cbcbe8;
-    animation: light 1s 3s linear forwards ;
+    font-size: 12px;
     overflow: hidden;
 }
-@media (max-width: 1000px) {
+@media (min-width:768px) {
+    .solution{
+        animation: light 1s 1.5s linear forwards ;
+    font-size: 18px;
+
+    }
+    .LED .LED-light{
+        animation: shading 1.2s 1.6s linear forwards;
+
+    }
+}
+
+@media (max-width: 1200px) {
   .big-title {
     font-size: 44px;
+    line-height: 46px;
   }
 }
 

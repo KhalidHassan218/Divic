@@ -39,39 +39,43 @@ const Header = () => {
         } mobile-links p-4 flex flex-col items-start justify-evenly`}
       >
         {links.map((link, i) => (
-          <a key={i} href={`#${link}`} onClick={()=>setOpenMenu(!openMenu)}>
+          <a key={i} href={`#${link}`} onClick={() => setOpenMenu(!openMenu)}>
             {link}
           </a>
         ))}
       </div>
       <div className="md:container desktop-nav md:mx-auto px-24 py-6 flex justify-center">
-        <Navbar className="nav-parent mx-auto">
-          <NavbarBrand>{logo}</NavbarBrand>
+        <div className="nav-parent px-4 mx-auto flex items-center justify-between">
+          <div>{logo}</div>
 
-          <NavbarContent className="hidden sm:flex gap-4" justify="center">
-            <NavbarItem className="nav-link">
+          <div className="hidden nav-links sm:flex gap-4 items-center" >
+            <li className="nav-link">
               <a href="#Home">Home</a>
-            </NavbarItem>
-            <NavbarItem className="nav-link">
+            </li>
+            <li className="nav-link">
               <a href="#Customers">Customers</a>
-            </NavbarItem>
-            <NavbarItem className="nav-link">
+            </li>
+            <li className="nav-link">
               <a href="#Services">Services</a>
-            </NavbarItem>
-            <NavbarItem className="nav-link">
+            </li>
+            <li className="nav-link">
               <a href="#Why US">Why Us</a>
-            </NavbarItem>
-            <NavbarItem className="nav-link">
+            </li>
+            <li className="nav-link">
               <a href="#Testimonials">Testimonials</a>
-            </NavbarItem>
-            <NavbarItem className="nav-link">
+            </li>
+            <li className="nav-link">
               <Link href="#Products">Products</Link>
-            </NavbarItem>
-          </NavbarContent>
-          <NavbarContent justify="end">
-            <Button className="con-sub-btn py-1.5 px-3.5"><a className="" href="#Contact Us">Contact Us</a></Button>
-          </NavbarContent>
-        </Navbar>
+            </li>
+          </div>
+          <div >
+            <Button className="con-sub-btn py-1.5 px-3.5">
+              <a className="" href="#Contact Us">
+                Contact Us
+              </a>
+            </Button>
+          </div>
+        </div>
       </div>
       <div className="md:container mobile-nav md:mx-auto px-4 py-6 flex justify-center">
         <Navbar className="nav-parent-mobile mx-auto">

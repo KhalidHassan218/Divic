@@ -13,6 +13,10 @@
     justify-content: center !important;
     align-items: center !important;
     max-height: 110px;
-    
 
+
+}
+.benefits-desktop svg{
+    width: 40px;
+    height: 40px;
 }

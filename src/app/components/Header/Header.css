@@ -31,6 +31,16 @@
   padding: 12px 24px !important;
   color: rgba(203, 203, 232, 1) !important;
 }
+
+@media (max-width:1200px) {
+  .nav-parent li{
+  font-size: 12px !important;
+  }
+  
+}
+
+
+
 header {
   padding: 0 !important;
 }
@@ -93,13 +103,16 @@ mix-blend-mode: screen;
 .nav-link {
   transition: all 0.5s ease-out;
 }
-
+.nav-links{
+  position: relative;
+  z-index: 9999;
+}
 .nav-link:hover ,.mobile-links a:hover {
   border-radius: 12px;
   text-shadow: 0px 0px 4px 0px #ffffff80;
   background: #ffffff1a;
 }
-.nav-link:hover a ,.mobile-links a:hover  {
+.nav-link:hover a  ,.mobile-links a:hover  {
   color: #ffffff;
   text-shadow: 0px 0px 4px 0px #ffffff80;
   font-family: 'Inter V';
