@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/button";
 import Image from "next/image";
 const Form = () => {
   return (
-    <div id="Contact Us" className="md:container form-parent relative md:mx-auto px-4 lg:px-24 items-center  pt-10 lg:pt-20 ">
+    <div id="Contact Us" className="md:container form-parent relative md:mx-auto px-4 lg:px-24 items-center  pt-2 ">
       <Image
         width={1634}
         height={1240}
@@ -13,7 +13,7 @@ const Form = () => {
         src="/assests/hero-addon/Galaxy.png"
         style={{ opacity: "0.2" }}
       />
-      <div className="main-title mx-auto">Contact Us</div>
+      <div className="main-title mx-auto text-sm " >Contact Us</div>
       <div className="contact-container rounded-3xl my-10	">
         <div className="contact-info flex-col md:flex-row flex justify-center">
           <div className="flex items-center py-6 px-12 gap-3 ">

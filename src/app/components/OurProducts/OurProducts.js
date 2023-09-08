@@ -4,7 +4,7 @@ import Features from './Features'
 import Image from 'next/image'
 const OurProducts = ({title}) => {
   return (
-    <div id='Products' className="md:container relative md:mx-auto px-4 lg:px-24 items-center	my-10  md:my-24 ">
+    <div id='Products' className="md:container relative md:mx-auto px-3 lg:px-20 items-center	my-10  md:my-24 ">
         <Image
           width={1428}
           height={892}

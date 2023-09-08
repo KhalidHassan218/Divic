@@ -105,7 +105,7 @@ const WhyUs = () => {
         {whyUs.map((item, index) => (
           <div key={index} className="flex-col flex">
             <div className=" block  lg:flex items-center">
-              <div className="mr-1">
+              <div className="mr-2">
                 {item.icon}
               </div>
               <b className="text-base text-white">{item.title}</b>

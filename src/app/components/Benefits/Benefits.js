@@ -182,8 +182,8 @@ const Benefits = ({hint}) => {
       <div className=" gap-5 benefits-desktop hidden items-center lg:grid-cols-4 md:grid-cols-2 hidden md:grid">
         {benefits.map((item, index) => (
           <div key={index} className="benefits-card md:p-4 p-6  flex gap-3">
-            <div>{item.icon}</div>
-            <div>
+            <div >{item.icon}</div>
+            <div className="benefits-desc">
               <h2
                 className="text-lg"
                 style={{ color: "rgba(170, 179, 195, 1)" }}

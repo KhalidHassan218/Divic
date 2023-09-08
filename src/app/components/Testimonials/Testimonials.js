@@ -74,9 +74,9 @@ const Testimonials = () => {
               />
               </div>
             <div>
-              <h2 className="text-2xl font-semibold" style={{color: 'rgba(175, 186, 202, 1)'}}>{item.title}</h2>
-              <h3 className="text-base	mb-3" style={{color: 'rgba(94, 113, 141, 1)'}}>{item.position}</h3>
-              <p style={{color: 'rgba(136, 151, 174, 1)'}}>{item.content}</p>
+              <h2 className="md:text-2xl  text-lg font-semibold" style={{color: 'rgba(175, 186, 202, 1)'}}>{item.title}</h2>
+              <h3 className="md:text-base text-xs		mb-3" style={{color: 'rgba(94, 113, 141, 1)'}}>{item.position}</h3>
+              <p className="md:text-base text-xs" style={{color: 'rgba(136, 151, 174, 1)'}}>{item.content}</p>
             </div>
           </div>
         ))}
@@ -94,10 +94,10 @@ const Testimonials = () => {
               size='lg'
               />
               </div>
-            <div>
-              <h2 className="text-2xl font-semibold" style={{color: 'rgba(175, 186, 202, 1)'}}>{item.title}</h2>
-              <h3 className="text-base	mb-3" style={{color: 'rgba(94, 113, 141, 1)'}}>{item.position}</h3>
-              <p style={{color: 'rgba(136, 151, 174, 1)'}}>{item.content}</p>
+              <div>
+              <h2 className="md:text-2xl  text-lg font-semibold" style={{color: 'rgba(175, 186, 202, 1)'}}>{item.title}</h2>
+              <h3 className="md:text-base text-xs		mb-3" style={{color: 'rgba(94, 113, 141, 1)'}}>{item.position}</h3>
+              <p className="md:text-base text-xs" style={{color: 'rgba(136, 151, 174, 1)'}}>{item.content}</p>
             </div>
           </div>
         ))}

@@ -48,7 +48,8 @@ const Services = () => {
       {/* cards-section */}
       <div className=" service-card-content  gap-2 lg:gap-4 grid grid-cols-1 lg:grid-cols-2">
       {services.map((service, index) => (
-        <div key={index} className="  service-card flex items-center justify-center">
+        <div key={index} className="  service-card ">
+          <div className="inner-service-card flex items-center justify-center">
           <div key={index} className="" >
             <Image
               width={180}
@@ -58,11 +59,12 @@ const Services = () => {
               src={service.img}
             />
           </div>
-          <div className="text-small py-5 px-3">
-            <b className="hero-last text-xs lg:text-xl my-1	">{service.title}</b>
+          <div className="text-small py-1 md:py-5 px-0 md:px-3">
+            <b className="hero-last text-base	 lg:text-xl my-1	">{service.title}</b>
             <p className="text-default-500 text-xs	lg:text-base">{service.paragraph}</p>
           </div>
           </div>
+      </div>
       ))}
     </div>
       {/* cards-section */}
