@@ -49,8 +49,8 @@ const Customers = () => {
         Streamline your software development process with Divic
       </div>
       <div>
-        <div className="flex mobile-customer gap-8 items-center justify-center">
-          <div className="hidden md:block">{customers}</div>
+        <div className="flex mobile-customer  md:gap-8 items-center justify-center">
+          <div className="hidden lg:block">{customers}</div>
           {customers}
           {customers}
         </div>
