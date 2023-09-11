@@ -37,7 +37,7 @@ const Customers = () => {
     </div>
   );
   return (
-    <div className="md:container md:mx-auto px-4 lg:px-16 items-center	my-10  md:my-24 ">
+    <div className="md:container md:mx-auto px-4  items-center	my-10  md:my-24 ">
       <div className="main-title mx-auto">Our Customers</div>
       <div className="mt-3 mb-8 hidden md:block mx-auto items-center ">
         <div className="hero-last  text-base lg:text-2xl">Powering the world’s best product teams</div>
