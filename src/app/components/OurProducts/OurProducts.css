@@ -44,7 +44,7 @@ box-shadow: inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1) ;
 }
 @media (max-width:768px) {
     .feature-card{
-    max-width: 250px;
+      max-width: calc(100% - 15px);
     }
     
 }

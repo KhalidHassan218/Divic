@@ -16,7 +16,7 @@ const Form = () => {
       <div className="main-title mx-auto text-sm " >Contact Us</div>
       <div className="contact-container rounded-3xl my-10	">
         <div className="contact-info flex-col md:flex-row flex justify-center">
-          <div className="flex items-center py-6 px-12 gap-3 ">
+          <div className="flex items-center px-12 md:px-28 py-6  gap-3 ">
             <div>
               <svg
                 width="24"

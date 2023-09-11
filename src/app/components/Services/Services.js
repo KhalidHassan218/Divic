@@ -61,7 +61,7 @@ const Services = () => {
           </div>
           <div className="text-small py-1 md:py-5 px-0 md:px-3">
             <b className="hero-last text-base	 lg:text-xl my-1	">{service.title}</b>
-            <p className="text-default-500 text-xs	lg:text-base">{service.paragraph}</p>
+            <p className=" text-xs	my-1 lg:text-base" style={{color:'rgba(203, 203, 232, 0.75)'}}>{service.paragraph}</p>
           </div>
           </div>
       </div>
